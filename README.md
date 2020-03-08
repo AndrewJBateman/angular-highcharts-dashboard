@@ -1,27 +1,60 @@
-# AngularHighchartsDashboard
+# Angular HighCharts Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+Angular app to show a selection of data using Highcharts.
 
-## Development server
+*** Note: to open web links in a new window use: _ctrl+click on link_**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Table of contents
 
-## Code scaffolding
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## General info
 
-## Build
+* Charts created using [Highcharts Stacked Area](https://www.highcharts.com/demo/area-stacked)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Screenshots
 
-## Running unit tests
+![Example screenshot](./img/dash.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies
 
-## Running end-to-end tests
+* [Angular v9.0.5](https://angular.io/)
+* [Highcharts v8.0.3](https://www.highcharts.com/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Setup
 
-## Further help
+* Install dependencies using `npm i`
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Code Examples
+
+* 
+
+```typescript
+
+```
+
+## Features
+
+* 
+
+## Status & To-Do List
+
+* Status: 
+* To-Do: 
+
+## Inspiration
+
+* [code-academia: Angular 8 Admin Dashboard Panel from scratch using Angular Material, highcharts and flex-layout](https://www.youtube.com/watch?v=FP7Hs8lTy1k&t=47s)
+* [Github repo: Angular Material Dasshboard using Angular Material, highcharts and flexbox](https://github.com/bloodymind/angular-material-dashboard)
+
+## Contact
+
+Repor created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!

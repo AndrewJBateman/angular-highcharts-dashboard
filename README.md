@@ -1,6 +1,6 @@
 # Angular HighCharts Dashboard
 
-Angular app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/). Code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to beexpanded upon with different chart types etc.
+Angular app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/). Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to be expanded upon with different chart types etc.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -17,8 +17,11 @@ Angular app to show a dashboard with a selecion of chart types from [Highcharts]
 
 ## General info
 
-* Chart type: 
-* Charts created using [Highcharts Stacked Area](https://www.highcharts.com/demo/area-stacked)
+### Highcharts/Angular Chart Types
+
+* [Pie Chart:](https://www.highcharts.com/demo/pie-basic) 
+* [Stacked Area](https://www.highcharts.com/demo/area-stacked)
+* [Angular Material Table](https://material.angular.io/components/table/overview)
 
 ## Screenshots
 
@@ -29,6 +32,7 @@ Angular app to show a dashboard with a selecion of chart types from [Highcharts]
 
 * [Angular v9.0.5](https://angular.io/) latest version of JavaScript framework
 * [Angular Material v9.1.1](https://material.angular.io/)
+* [Angular Flex Layout v9.0.0-beta.29](https://github.com/angular/flex-layout)
 * [Highcharts v8.0.3](https://www.highcharts.com/)
 * [highcharts-angular v2.4.0](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 
@@ -40,9 +44,51 @@ Angular app to show a dashboard with a selecion of chart types from [Highcharts]
 
 ## Code Examples
 
-* 
+* extract from inialisation of pie chart page, showing chart options
 
 ```typescript
+ngOnInit() {
+    this.chartOptions = {
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+      },
+      title: {
+        text: 'PIE EATING DATA'
+      },
+      tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+      },
+      accessibility: {
+        point: {
+          valueSuffix: '%'
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+          }
+        }
+      },
+      exporting: {
+        enabled: false
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: this.data
+      }]
+    };
+}
 
 ```
 
@@ -53,7 +99,7 @@ Angular app to show a dashboard with a selecion of chart types from [Highcharts]
 ## Status & To-Do List
 
 * Status: Working.
-* To-Do: Add comments, complete readme and customise with other chart types etc.
+* To-Do: Add comments, complete readme and customise with other chart types etc. 
 
 ## Inspiration
 

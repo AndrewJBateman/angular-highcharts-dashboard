@@ -1,14 +1,13 @@
-import { Component, OnInit, Input } from '@angular/core';
-import * as Highcharts from 'highcharts';
-import HC_exporting from 'highcharts/modules/exporting';
+import { Component, OnInit, Input } from "@angular/core";
+import * as Highcharts from "highcharts";
+import HC_exporting from "highcharts/modules/exporting";
 
 @Component({
-  selector: 'app-widget-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+  selector: "app-widget-card",
+  templateUrl: "./card.component.html",
+  styleUrls: ["./card.component.scss"],
 })
 export class CardComponent implements OnInit {
-
   @Input() label: string;
   @Input() total: string;
   @Input() percentage: string;
@@ -16,23 +15,23 @@ export class CardComponent implements OnInit {
 
   Highcharts = Highcharts;
   chartOptions = {};
-  
-  constructor() { }
+
+  constructor() {}
 
   ngOnInit() {
     this.chartOptions = {
       chart: {
-        type: 'area',
+        type: "area",
         backgroundColor: null,
         borderWidth: 0,
         margin: [2, 2, 2, 2],
-        height: 60
+        height: 60,
       },
       title: {
-        text: null
+        text: null,
       },
       subtitle: {
-        text: null
+        text: null,
       },
       tooltip: {
         split: true,
@@ -49,36 +48,36 @@ export class CardComponent implements OnInit {
       },
       xAxis: {
         labels: {
-          enabled: false
+          enabled: false,
         },
         title: {
-          text: null
+          text: null,
         },
         startOnTick: false,
         endOnTick: false,
-        tickOptions: []
+        tickOptions: [],
       },
       yAxis: {
         labels: {
-          enabled: false
+          enabled: false,
         },
         title: {
-          text: null
+          text: null,
         },
         startOnTick: false,
         endOnTick: false,
-        tickOptions: []
+        tickOptions: [],
       },
-      series: [{
-        data: [71, 78, 39, 66]
-      }]
+      series: [
+        {
+          data: [71, 78, 39, 66],
+        },
+      ],
     };
     HC_exporting(this.Highcharts);
 
     setTimeout(() => {
-      window.dispatchEvent(
-        new Event('resize')
-      );
+      window.dispatchEvent(new Event("resize"));
     }, 300);
   }
 }

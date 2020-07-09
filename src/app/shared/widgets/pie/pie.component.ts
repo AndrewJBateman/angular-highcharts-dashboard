@@ -1,14 +1,13 @@
-import { Component, OnInit, Input } from '@angular/core';
-import * as Highcharts from 'highcharts';
-import HC_exporting from 'highcharts/modules/exporting';
+import { Component, OnInit, Input } from "@angular/core";
+import * as Highcharts from "highcharts";
+import HC_exporting from "highcharts/modules/exporting";
 
 @Component({
-  selector: 'app-widget-pie',
-  templateUrl: './pie.component.html',
-  styleUrls: ['./pie.component.scss']
+  selector: "app-widget-pie",
+  templateUrl: "./pie.component.html",
+  styleUrls: ["./pie.component.scss"],
 })
 export class PieComponent implements OnInit {
-
   Highcharts = Highcharts;
   chartOptions = {};
 
@@ -22,49 +21,48 @@ export class PieComponent implements OnInit {
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
-        type: 'pie'
+        type: "pie",
       },
       title: {
-        text: 'PIE EATING DATA'
+        text: "PIE EATING DATA",
       },
       tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>",
       },
       accessibility: {
         point: {
-          valueSuffix: '%'
-        }
+          valueSuffix: "%",
+        },
       },
       plotOptions: {
         pie: {
           allowPointSelect: true,
-          cursor: 'pointer',
+          cursor: "pointer",
           dataLabels: {
             enabled: true,
-            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
-          }
-        }
+            format: "<b>{point.name}</b>: {point.percentage:.1f} %",
+          },
+        },
       },
       exporting: {
-        enabled: false
+        enabled: false,
       },
       credits: {
-        enabled: false
+        enabled: false,
       },
-      series: [{
-        name: 'Brands',
-        colorByPoint: true,
-        data: this.data
-      }]
+      series: [
+        {
+          name: "Brands",
+          colorByPoint: true,
+          data: this.data,
+        },
+      ],
     };
 
     HC_exporting(Highcharts);
 
     setTimeout(() => {
-      window.dispatchEvent(
-        new Event('resize')
-      );
+      window.dispatchEvent(new Event("resize"));
     }, 300);
-
   }
 }

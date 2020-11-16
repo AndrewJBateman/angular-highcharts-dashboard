@@ -1,6 +1,6 @@
 # :zap: Angular HighCharts Dashboard
 
-Angular 10 app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/). Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to be expanded upon with different chart types etc.
+Angular 11 app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/). Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to be expanded upon with different chart types etc.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -31,9 +31,9 @@ Angular 10 app to show a dashboard with a selecion of chart types from [Highchar
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/) latest version of JavaScript framework
-* [Angular Material v10](https://material.angular.io/)
-* [Angular Flex Layout v9](https://github.com/angular/flex-layout)
+* [Angular v11](https://angular.io/) latest version of JavaScript framework
+* [Angular Material v11](https://material.angular.io/)
+* [Angular Flex Layout v11](https://github.com/angular/flex-layout)
 * [Highcharts v8](https://www.highcharts.com/)
 * [highcharts-angular v2](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 
@@ -100,12 +100,12 @@ ngOnInit() {
 ## :clipboard: Status & To-Do List
 
 * Status: Working.
-* To-Do: Add comments, complete readme and customise with other chart types etc.
+* To-Do: Add chart types etc.
 
 ## :clap: Inspiration
 
 * [code-academia: Angular 8 Admin Dashboard Panel from scratch using Angular Material, highcharts and flex-layout](https://www.youtube.com/watch?v=FP7Hs8lTy1k&t=47s)
-* [Github repo: Angular Material Dasshboard using Angular Material, highcharts and flexbox](https://github.com/bloodymind/angular-material-dashboard)
+* [Github repo: Angular Material Dashboard using Angular Material, highcharts and flexbox](https://github.com/bloodymind/angular-material-dashboard)
 
 ## :envelope: Contact
 

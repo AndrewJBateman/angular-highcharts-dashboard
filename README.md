@@ -1,8 +1,12 @@
 # :zap: Angular HighCharts Dashboard
 
-Angular 11 app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/). Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to be expanded upon with different chart types etc.
+* Angular app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/). Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to be expanded upon with different chart types etc.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-highcharts-dashboard?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-highcharts-dashboard?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-highcharts-dashboard?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-highcharts-dashboard?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,6 +20,7 @@ Angular 11 app to show a dashboard with a selecion of chart types from [Highchar
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info - Highcharts/Angular Chart Types
@@ -45,7 +50,7 @@ Angular 11 app to show a dashboard with a selecion of chart types from [Highchar
 
 ## :computer: Code Examples
 
-* extract from inialisation of pie chart page, showing chart options
+* extract from initialisation of pie chart page, showing chart options
 
 ```typescript
 ngOnInit() {
@@ -99,7 +104,7 @@ ngOnInit() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working. Updated may 2021.
 * To-Do: Add chart types etc.
 
 ## :clap: Inspiration
@@ -107,6 +112,10 @@ ngOnInit() {
 * [code-academia: Angular 8 Admin Dashboard Panel from scratch using Angular Material, highcharts and flex-layout](https://www.youtube.com/watch?v=FP7Hs8lTy1k&t=47s)
 * [Github repo: Angular Material Dashboard using Angular Material, highcharts and flexbox](https://github.com/bloodymind/angular-material-dashboard)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com

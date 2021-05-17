@@ -36,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/) latest version of JavaScript framework
+* [Angular v12](https://angular.io/) latest version of JavaScript framework
 * [Angular Material v11](https://material.angular.io/)
 * [Angular Flex Layout v11](https://github.com/angular/flex-layout)
 * [Highcharts v8](https://www.highcharts.com/)

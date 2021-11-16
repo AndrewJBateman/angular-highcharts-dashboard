@@ -24,7 +24,7 @@ export class PieComponent implements OnInit {
         type: "pie",
       },
       title: {
-        text: "PIE EATING DATA",
+        text: "BROWSERS: MARKET SHARE",
       },
       tooltip: {
         pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>",

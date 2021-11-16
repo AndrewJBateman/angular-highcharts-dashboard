@@ -37,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/) JavaScript framework
-* [Angular Material v12](https://material.angular.io/)
-* [Angular Flex Layout v11](https://github.com/angular/flex-layout)
+* [Angular v13](https://angular.io/) JavaScript framework
+* [Angular Material v13](https://material.angular.io/)
+* [Angular Flex Layout v12](https://github.com/angular/flex-layout)
 * [Highcharts v9](https://www.highcharts.com/)
 * [highcharts-angular v2](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 
@@ -63,7 +63,7 @@ ngOnInit() {
         type: 'pie'
       },
       title: {
-        text: 'PIE EATING DATA'
+        text: 'BROWSERS: MARKET SHARE'
       },
       tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'

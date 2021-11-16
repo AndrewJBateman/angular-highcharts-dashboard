@@ -37,7 +37,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/) latest version of JavaScript framework
+* [Angular v12](https://angular.io/) JavaScript framework
 * [Angular Material v12](https://material.angular.io/)
 * [Angular Flex Layout v11](https://github.com/angular/flex-layout)
 * [Highcharts v9](https://www.highcharts.com/)
@@ -104,7 +104,7 @@ ngOnInit() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021.
+* Status: Working.
 * To-Do: Add chart types etc.
 
 ## :clap: Inspiration

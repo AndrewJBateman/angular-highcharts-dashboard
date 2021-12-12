@@ -39,9 +39,9 @@
 
 * [Angular v13](https://angular.io/) JavaScript framework
 * [Angular Material v13](https://material.angular.io/)
-* [Angular Flex Layout v12](https://github.com/angular/flex-layout)
+* [Angular Flex Layout v13](https://github.com/angular/flex-layout)
 * [Highcharts v9](https://www.highcharts.com/)
-* [highcharts-angular v2](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
+* [highcharts-angular v3](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 
 ## :floppy_disk: Setup
 

@@ -1,7 +1,7 @@
 # :zap: Angular HighCharts Dashboard
 
-* Angular app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/).
-* Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) to be expanded upon with different chart types etc.
+* Angular app to show a dashboard with a selecion of chart types from [Highcharts](https://www.highcharts.com/)
+* Much of code from [code-academia](https://www.youtube.com/channel/UCHDfCPdd_Q-OOcsujHB5-yA) but to latest Angular version
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-highcharts-dashboard?style=plastic)
@@ -37,10 +37,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/) JavaScript framework
-* [Angular Material v13](https://material.angular.io/)
+* [Angular v14](https://angular.io/) JavaScript framework
+* [Angular Material v14](https://material.angular.io/)
 * [Angular Flex Layout v13](https://github.com/angular/flex-layout)
-* [Highcharts v9](https://www.highcharts.com/)
+* [Highcharts v10](https://www.highcharts.com/)
 * [highcharts-angular v3](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 
 ## :floppy_disk: Setup

@@ -37,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14](https://angular.io/) JavaScript framework
-* [Angular Material v14](https://material.angular.io/)
-* [Angular Flex Layout v13](https://github.com/angular/flex-layout)
+* [Angular v15](https://angular.io/) JavaScript framework
+* [Angular Material v15](https://material.angular.io/)
+* [Angular Flex Layout v14](https://github.com/angular/flex-layout)
 * [Highcharts v10](https://www.highcharts.com/)
 * [highcharts-angular v3](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 

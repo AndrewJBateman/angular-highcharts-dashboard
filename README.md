@@ -12,16 +12,16 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular HighCharts Dashboard](#zap-angular-highcharts-dashboard)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:page\_facing\_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info - Highcharts/Angular Chart Types](#books-general-info---highchartsangular-chart-types)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:signal\_strength: Technologies](#signal_strength-technologies)
+  * [:floppy\_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clipboard: Status \& To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
-  * [:file_folder: License](#file_folder-license)
+  * [:file\_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info - Highcharts/Angular Chart Types
@@ -37,10 +37,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v15](https://angular.io/) JavaScript framework
-* [Angular Material v15](https://material.angular.io/)
-* [Angular Flex Layout v14](https://github.com/angular/flex-layout)
-* [Highcharts v10](https://www.highcharts.com/)
+* [Angular v16](https://angular.io/) JavaScript framework
+* [Angular Material v16](https://material.angular.io/)
+* [Angular Flex Layout v14](https://github.com/angular/flex-layout). Flex-layout is deprecated
+* [Highcharts v11](https://www.highcharts.com/)
 * [highcharts-angular v3](https://github.com/highcharts/highcharts-angular) official minimal Highcharts wrapper for Angular
 
 ## :floppy_disk: Setup
@@ -104,8 +104,8 @@ ngOnInit() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
-* To-Do: Add chart types etc.
+* Status: Working but does not display properly on mobile screen
+* To-Do: Replace flex-layout
 
 ## :clap: Inspiration
 
@@ -118,4 +118,4 @@ ngOnInit() {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@yahoo.com`
